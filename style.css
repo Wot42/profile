@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Distressed&family=Rubik+Maze&display=swap');
+
+body{
+  background: #61481C;
+}
+
+h1{
+  color: #EAE509;
+  font-family: 'Rubik Maze', cursive;
+  font-size: 150px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2{
+  color: #7DCE13;
+  font-size: 50px;
+  font-family: 'Rubik Distressed', cursive;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+h3{
+  font-size: 100px;
+  color: #5BB318;
+  font-family: 'Rubik Distressed', cursive;
+  font-weight: 400;
+  text-align: center;
+}
+
+p{
+  color: #2B7A0B;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  text-align: center;
+}
+.card{
+  border-width: 2px;
+  border-color: rgb(70, 166, 250);
+  border-style: solid;
+  width: 75%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  margin: 30px;
+
+}
+
+.card-dark-brown{
+  background: #A47E3B;
+}
+
+.card-brown{
+  background: #BF9742;
+}
+
+.card-light-brown{
+  background: #E6B325;
+}
+
+.pic{
+  height: 300px;
+  width: 300px;
+ align-content: center;
+
+  /* padding: 0% 50%; */
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+
+}
+.pic img {
+  height: 100%;
+  margin: 0 -40%;
+}
+
+li {
+  display: inline-block;
+  font-size: 50px;
+}
+li a{color: #5BB318;}
+button {
+  color: #7DCE13;
+  background: #61481C;
+  padding: 10px;
+  width: 100px;
+  margin: 20px auto;
+
+
+}
+
+.but{
+  width: 100px;
+  margin: 20px auto;
+}
+/*
+@media (max-width: 960px) {
+
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+*/
+.container {
+  width: 1000px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
